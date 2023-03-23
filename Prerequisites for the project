@@ -1,0 +1,10 @@
+It is needed to install pycocotools to execute the notebooks. You can get it from pip or from the original repo To install on Windows, you can use Anaconda environment and you must have the Visual C++ 2015 build tools:
+
+Clone the repo
+Create a new environment: conda create -n deep
+Activate the environment: activate deep
+Install requirements: pip install -r requirements.txt
+inside PythonAPI folder, we can find setup.py file. Open the file and delete the following line:
+extra_compile_args=[‘-Wno-cpp’, ‘-Wno-unused-function’, ‘-std=c99’]
+run command python setup.py build_ext install
+run command python setup.py build_ext --inplace
