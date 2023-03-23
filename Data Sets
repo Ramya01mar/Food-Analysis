@@ -1,0 +1,7 @@
+The dataset for the AIcrowd Food Recognition Challenge is available at https://www.aicrowd.com/challenges/food-recognition-challenge/dataset_files
+
+This dataset contains :
+
+train-v0.4.tar.gz : This is the Training Set of 24120 (as RGB images) food images, along with their corresponding 39328 annotations in MS-COCO format
+val-v0.4.tar.gz: This is the suggested Validation Set of 1269 (as RGB images) food images, along with their corresponding 2053 annotations in MS-COCO format
+test_images-v0.4.tar.gz : This is the debug Test Set for Round-3, where you are provided the same images as the validation set.
